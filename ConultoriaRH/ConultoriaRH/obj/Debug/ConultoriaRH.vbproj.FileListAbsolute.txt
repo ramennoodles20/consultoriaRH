@@ -1,0 +1,12 @@
+C:\Users\Juan Diego\Desktop\ConultoriaRH\ConultoriaRH\bin\Debug\ConultoriaRH.exe.config
+C:\Users\Juan Diego\Desktop\ConultoriaRH\ConultoriaRH\bin\Debug\ConultoriaRH.exe
+C:\Users\Juan Diego\Desktop\ConultoriaRH\ConultoriaRH\bin\Debug\ConultoriaRH.pdb
+C:\Users\Juan Diego\Desktop\ConultoriaRH\ConultoriaRH\bin\Debug\ConultoriaRH.xml
+C:\Users\Juan Diego\Desktop\ConultoriaRH\ConultoriaRH\obj\Debug\ConultoriaRH.vbprojResolveAssemblyReference.cache
+C:\Users\Juan Diego\Desktop\ConultoriaRH\ConultoriaRH\obj\Debug\WindowsApp1.Form1.resources
+C:\Users\Juan Diego\Desktop\ConultoriaRH\ConultoriaRH\obj\Debug\WindowsApp1.Resources.resources
+C:\Users\Juan Diego\Desktop\ConultoriaRH\ConultoriaRH\obj\Debug\ConultoriaRH.vbproj.GenerateResource.Cache
+C:\Users\Juan Diego\Desktop\ConultoriaRH\ConultoriaRH\obj\Debug\ConultoriaRH.vbproj.CoreCompileInputs.cache
+C:\Users\Juan Diego\Desktop\ConultoriaRH\ConultoriaRH\obj\Debug\ConultoriaRH.exe
+C:\Users\Juan Diego\Desktop\ConultoriaRH\ConultoriaRH\obj\Debug\ConultoriaRH.xml
+C:\Users\Juan Diego\Desktop\ConultoriaRH\ConultoriaRH\obj\Debug\ConultoriaRH.pdb
