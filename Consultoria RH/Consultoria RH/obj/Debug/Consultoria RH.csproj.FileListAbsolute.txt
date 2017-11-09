@@ -1,0 +1,14 @@
+c:\users\fabricio\documents\visual studio 2017\Projects\Consultoria RH\Consultoria RH\bin\Debug\Consultoria RH.exe.config
+c:\users\fabricio\documents\visual studio 2017\Projects\Consultoria RH\Consultoria RH\bin\Debug\Consultoria RH.exe
+c:\users\fabricio\documents\visual studio 2017\Projects\Consultoria RH\Consultoria RH\bin\Debug\Consultoria RH.pdb
+c:\users\fabricio\documents\visual studio 2017\Projects\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Lista_profesores_carrera.resources
+c:\users\fabricio\documents\visual studio 2017\Projects\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Properties.Resources.resources
+c:\users\fabricio\documents\visual studio 2017\Projects\Consultoria RH\Consultoria RH\obj\Debug\Consultoria RH.csproj.GenerateResource.Cache
+c:\users\fabricio\documents\visual studio 2017\Projects\Consultoria RH\Consultoria RH\obj\Debug\Consultoria RH.exe
+c:\users\fabricio\documents\visual studio 2017\Projects\Consultoria RH\Consultoria RH\obj\Debug\Consultoria RH.pdb
+c:\users\fabricio\documents\visual studio 2017\Projects\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Profesores_curso.resources
+c:\users\fabricio\documents\visual studio 2017\Projects\Consultoria RH\Consultoria RH\obj\Debug\Consultoria RH.csprojResolveAssemblyReference.cache
+c:\users\fabricio\documents\visual studio 2017\Projects\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Plan_capacitacion.resources
+c:\users\fabricio\documents\visual studio 2017\Projects\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Plan_de_Estudio.resources
+C:\Users\Fabricio\documents\visual studio 2017\Projects\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Informacion_profesor.resources
+C:\Users\Fabricio\documents\visual studio 2017\Projects\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Lista_profesores_curso.resources
