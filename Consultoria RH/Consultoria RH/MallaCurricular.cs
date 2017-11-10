@@ -37,5 +37,11 @@ namespace Consultoria_RH
                 }
             }
         }
+
+        private void button62_Click(object sender, EventArgs e)
+        {
+            Lista_profesores_carrera lista_profes = new Lista_profesores_carrera();
+            lista_profes.Show();
+        }
     }
 }

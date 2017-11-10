@@ -10,7 +10,7 @@ namespace Consultoria_RH
 {
     class basedeDatos
     {
-        string path = "C:\\Users\\Fabricio\\Desktop\\consultoriaRH\\BDRH.mdb";
+        string path = "C:\\Users\\TEMP\\Desktop\\consultoriaRH\\BDRH.mdb";
 
         string provider = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=";
         string connString;

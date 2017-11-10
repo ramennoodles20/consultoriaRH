@@ -21,7 +21,10 @@ C:\Users\TEMP\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Cons
 C:\Users\TEMP\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Informacion_profesor.resources
 C:\Users\TEMP\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Lista_profesores_carrera.resources
 C:\Users\TEMP\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Lista_profesores_curso.resources
+<<<<<<< HEAD
 C:\Users\TEMP\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.MallaCurricular.resources
+=======
+>>>>>>> faff142dda31664949756352a3c98dddb29b6330
 C:\Users\TEMP\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Plan_capacitacion.resources
 C:\Users\TEMP\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Plan_de_Estudio.resources
 C:\Users\TEMP\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Profesores_curso.resources

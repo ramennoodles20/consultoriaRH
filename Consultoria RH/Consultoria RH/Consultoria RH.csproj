@@ -95,12 +95,6 @@
     <Compile Include="Plan_capacitacion.Designer.cs">
       <DependentUpon>Plan_capacitacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Plan_de_Estudio.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Plan_de_Estudio.Designer.cs">
-      <DependentUpon>Plan_de_Estudio.cs</DependentUpon>
-    </Compile>
     <Compile Include="Profesores_curso.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,9 +117,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Plan_capacitacion.resx">
       <DependentUpon>Plan_capacitacion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Plan_de_Estudio.resx">
-      <DependentUpon>Plan_de_Estudio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Profesores_curso.resx">
       <DependentUpon>Profesores_curso.cs</DependentUpon>
@@ -151,9 +142,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Plan_de_estudio.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">

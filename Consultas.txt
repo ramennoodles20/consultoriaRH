@@ -1,0 +1,15 @@
+CONSULTA PARA OBTENER LOS PROFESORES DE UN CURSO
+
+SELECT        respuestasRH.[Nombre completo]
+FROM            (actividadesComplementarias INNER JOIN
+                         respuestasRH ON actividadesComplementarias.[ID de respuesta] = respuestasRH.[ID de respuesta])
+WHERE        (respuestasRH.[cursos que impartiria] LIKE '%TI1401%')
+GROUP BY respuestasRH.[Nombre completo]
+
+CONSULTA INFORMACION DE PROFESORES
+
+SELECT        *
+FROM            (actividadesComplementarias INNER JOIN
+                         respuestasRH ON actividadesComplementarias.[ID de respuesta] = respuestasRH.[ID de respuesta])
+WHERE        (respuestasRH.[Nombre completo] LIKE '%Gonzalo Delgado Leandro%')
+
