@@ -33,6 +33,8 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.lbl_codigo_curso = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // listBox1
@@ -48,7 +50,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.button3.Location = new System.Drawing.Point(397, 768);
+            this.button3.Location = new System.Drawing.Point(362, 16);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(285, 130);
             this.button3.TabIndex = 9;
@@ -87,19 +89,30 @@
             this.lbl_codigo_curso.TabIndex = 14;
             this.lbl_codigo_curso.Text = "Codigo Curso";
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 743);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1072, 167);
+            this.panel1.TabIndex = 15;
+            // 
             // Lista_profesores_curso
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1072, 910);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.lbl_codigo_curso);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.listBox1);
             this.Name = "Lista_profesores_curso";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista de Profesores del Curso";
             this.Load += new System.EventHandler(this.Lista_profesores_curso_Load);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -112,5 +125,6 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label lbl_codigo_curso;
+        private System.Windows.Forms.Panel panel1;
     }
 }

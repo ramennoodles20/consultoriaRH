@@ -36,7 +36,6 @@ C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\
 C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Lista_profesores_curso.resources
 C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.MallaCurricular.resources
 C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Plan_capacitacion.resources
-C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Profesores_curso.resources
 C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Properties.Resources.resources
 C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria RH.csproj.GenerateResource.Cache
 C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria RH.exe
