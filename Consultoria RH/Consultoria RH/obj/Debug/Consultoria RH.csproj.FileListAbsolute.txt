@@ -27,3 +27,17 @@ C:\Users\TEMP\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Cons
 C:\Users\TEMP\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Profesores_curso.resources
 C:\Users\TEMP\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Properties.Resources.resources
 C:\Users\TEMP\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria RH.csproj.GenerateResource.Cache
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\bin\Debug\Consultoria RH.exe.config
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\bin\Debug\Consultoria RH.exe
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\bin\Debug\Consultoria RH.pdb
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria RH.csprojResolveAssemblyReference.cache
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Informacion_profesor.resources
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Lista_profesores_carrera.resources
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Lista_profesores_curso.resources
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.MallaCurricular.resources
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Plan_capacitacion.resources
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Profesores_curso.resources
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Properties.Resources.resources
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria RH.csproj.GenerateResource.Cache
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria RH.exe
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria RH.pdb
