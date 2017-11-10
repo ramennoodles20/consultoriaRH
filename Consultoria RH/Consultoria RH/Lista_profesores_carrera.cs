@@ -31,7 +31,8 @@ namespace Consultoria_RH
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Informacion_profesor info_profe = new Informacion_profesor();
+            //string nombre = listBox1.Text
+            Informacion_profesor info_profe = new Informacion_profesor(listBox1.Text);
             info_profe.Show();
         }
 
