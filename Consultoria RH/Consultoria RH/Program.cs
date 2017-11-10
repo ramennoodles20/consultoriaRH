@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Consultoria_RH
@@ -16,7 +13,7 @@ namespace Consultoria_RH
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Plan_de_Estudio());
+            Application.Run(new MallaCurricular());
         }
     }
 }

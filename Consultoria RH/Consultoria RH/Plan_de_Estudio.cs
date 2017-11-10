@@ -453,5 +453,10 @@ namespace Consultoria_RH
             Lista_profesores_carrera lista_profes = new Lista_profesores_carrera();
             lista_profes.Show();
         }
+
+        private void Plan_de_Estudio_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
