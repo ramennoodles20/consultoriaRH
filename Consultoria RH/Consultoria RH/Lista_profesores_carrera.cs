@@ -25,7 +25,7 @@ namespace Consultoria_RH
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Plan_capacitacion plan = new Plan_capacitacion();
+            Plan_capacitacion plan = new Plan_capacitacion(listBox1.Text);
             plan.Show();
         }
 
