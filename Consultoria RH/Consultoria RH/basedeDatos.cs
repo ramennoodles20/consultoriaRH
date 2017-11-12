@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +10,7 @@ namespace Consultoria_RH
 {
     class basedeDatos
     {
-        string path = "C:\\Users\\Fabricio\\Desktop\\consultoriaRH\\BDRH.mdb";
+        string path = "C:\\Users\\jos10\\Documents\\GitHub\\consultoriaRH\\BDRH.mdb";
 
         string provider = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=";
         string connString;
