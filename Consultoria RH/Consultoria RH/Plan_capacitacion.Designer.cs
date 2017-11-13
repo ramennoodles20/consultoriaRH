@@ -64,6 +64,7 @@
             this.richTextBox8 = new System.Windows.Forms.RichTextBox();
             this.richTextBox9 = new System.Windows.Forms.RichTextBox();
             this.richTextBox10 = new System.Windows.Forms.RichTextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel13 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -83,8 +84,8 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.button3.Location = new System.Drawing.Point(323, 19);
-            this.button3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.button3.Location = new System.Drawing.Point(209, 20);
+            this.button3.Margin = new System.Windows.Forms.Padding(1);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(122, 58);
             this.button3.TabIndex = 8;
@@ -107,7 +108,7 @@
             this.tableLayoutPanel1.Controls.Add(this.panel9, 0, 8);
             this.tableLayoutPanel1.Controls.Add(this.panel10, 0, 9);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(15, 92);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(1);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 10;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090732F));
@@ -130,7 +131,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(1, 1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel1.Margin = new System.Windows.Forms.Padding(1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(315, 41);
             this.panel1.TabIndex = 0;
@@ -153,7 +154,7 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(1, 44);
-            this.panel2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel2.Margin = new System.Windows.Forms.Padding(1);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(315, 41);
             this.panel2.TabIndex = 1;
@@ -176,7 +177,7 @@
             this.panel3.Controls.Add(this.label3);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(1, 87);
-            this.panel3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel3.Margin = new System.Windows.Forms.Padding(1);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(315, 41);
             this.panel3.TabIndex = 2;
@@ -199,7 +200,7 @@
             this.panel4.Controls.Add(this.label4);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(1, 130);
-            this.panel4.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel4.Margin = new System.Windows.Forms.Padding(1);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(315, 41);
             this.panel4.TabIndex = 3;
@@ -222,7 +223,7 @@
             this.panel5.Controls.Add(this.label5);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(1, 173);
-            this.panel5.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel5.Margin = new System.Windows.Forms.Padding(1);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(315, 41);
             this.panel5.TabIndex = 4;
@@ -245,7 +246,7 @@
             this.panel6.Controls.Add(this.label6);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(1, 216);
-            this.panel6.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel6.Margin = new System.Windows.Forms.Padding(1);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(315, 41);
             this.panel6.TabIndex = 5;
@@ -268,7 +269,7 @@
             this.panel7.Controls.Add(this.label12);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(1, 259);
-            this.panel7.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel7.Margin = new System.Windows.Forms.Padding(1);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(315, 63);
             this.panel7.TabIndex = 6;
@@ -291,7 +292,7 @@
             this.panel8.Controls.Add(this.label8);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(1, 324);
-            this.panel8.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel8.Margin = new System.Windows.Forms.Padding(1);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(315, 63);
             this.panel8.TabIndex = 7;
@@ -314,7 +315,7 @@
             this.panel9.Controls.Add(this.label9);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel9.Location = new System.Drawing.Point(1, 389);
-            this.panel9.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel9.Margin = new System.Windows.Forms.Padding(1);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(315, 41);
             this.panel9.TabIndex = 8;
@@ -337,7 +338,7 @@
             this.panel10.Controls.Add(this.label7);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel10.Location = new System.Drawing.Point(1, 432);
-            this.panel10.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel10.Margin = new System.Windows.Forms.Padding(1);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(315, 50);
             this.panel10.TabIndex = 9;
@@ -402,7 +403,7 @@
             this.tableLayoutPanel2.Controls.Add(this.richTextBox9, 0, 8);
             this.tableLayoutPanel2.Controls.Add(this.richTextBox10, 0, 9);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(335, 92);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(1);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 10;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090732F));
@@ -424,7 +425,7 @@
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.richTextBox1.Location = new System.Drawing.Point(1, 1);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(426, 41);
@@ -437,7 +438,7 @@
             this.richTextBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.richTextBox2.Location = new System.Drawing.Point(1, 44);
-            this.richTextBox2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.richTextBox2.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.ReadOnly = true;
             this.richTextBox2.Size = new System.Drawing.Size(426, 41);
@@ -450,7 +451,7 @@
             this.richTextBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.richTextBox3.Location = new System.Drawing.Point(1, 87);
-            this.richTextBox3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.richTextBox3.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.ReadOnly = true;
             this.richTextBox3.Size = new System.Drawing.Size(426, 41);
@@ -463,7 +464,7 @@
             this.richTextBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.richTextBox4.Location = new System.Drawing.Point(1, 130);
-            this.richTextBox4.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.richTextBox4.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.ReadOnly = true;
             this.richTextBox4.Size = new System.Drawing.Size(426, 41);
@@ -476,7 +477,7 @@
             this.richTextBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.richTextBox5.Location = new System.Drawing.Point(1, 173);
-            this.richTextBox5.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.richTextBox5.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox5.Name = "richTextBox5";
             this.richTextBox5.ReadOnly = true;
             this.richTextBox5.Size = new System.Drawing.Size(426, 41);
@@ -489,7 +490,7 @@
             this.richTextBox6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.richTextBox6.Location = new System.Drawing.Point(1, 216);
-            this.richTextBox6.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.richTextBox6.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox6.Name = "richTextBox6";
             this.richTextBox6.ReadOnly = true;
             this.richTextBox6.Size = new System.Drawing.Size(426, 41);
@@ -502,7 +503,7 @@
             this.richTextBox7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.richTextBox7.Location = new System.Drawing.Point(1, 259);
-            this.richTextBox7.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.richTextBox7.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox7.Name = "richTextBox7";
             this.richTextBox7.ReadOnly = true;
             this.richTextBox7.Size = new System.Drawing.Size(426, 63);
@@ -515,7 +516,7 @@
             this.richTextBox8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.richTextBox8.Location = new System.Drawing.Point(1, 324);
-            this.richTextBox8.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.richTextBox8.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox8.Name = "richTextBox8";
             this.richTextBox8.ReadOnly = true;
             this.richTextBox8.Size = new System.Drawing.Size(426, 63);
@@ -528,7 +529,7 @@
             this.richTextBox9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.richTextBox9.Location = new System.Drawing.Point(1, 389);
-            this.richTextBox9.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.richTextBox9.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox9.Name = "richTextBox9";
             this.richTextBox9.ReadOnly = true;
             this.richTextBox9.Size = new System.Drawing.Size(426, 41);
@@ -541,19 +542,32 @@
             this.richTextBox10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.richTextBox10.Location = new System.Drawing.Point(1, 432);
-            this.richTextBox10.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.richTextBox10.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox10.Name = "richTextBox10";
             this.richTextBox10.ReadOnly = true;
             this.richTextBox10.Size = new System.Drawing.Size(426, 50);
             this.richTextBox10.TabIndex = 9;
             this.richTextBox10.Text = "";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.button1.Location = new System.Drawing.Point(395, 20);
+            this.button1.Margin = new System.Windows.Forms.Padding(1);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(122, 58);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Generar Reporte";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // panel13
             // 
+            this.panel13.Controls.Add(this.button1);
             this.panel13.Controls.Add(this.button3);
             this.panel13.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel13.Location = new System.Drawing.Point(0, 583);
-            this.panel13.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel13.Margin = new System.Windows.Forms.Padding(1);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(784, 99);
             this.panel13.TabIndex = 13;
@@ -569,7 +583,7 @@
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.Margin = new System.Windows.Forms.Padding(1);
             this.Name = "Plan_capacitacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Plan de Capacitación";
@@ -641,5 +655,6 @@
         private System.Windows.Forms.RichTextBox richTextBox10;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button1;
     }
 }

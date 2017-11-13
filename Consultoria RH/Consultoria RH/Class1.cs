@@ -1,5 +1,6 @@
 using iTextSharp.text;
 using iTextSharp.text.pdf;
+using System;
 using System.Windows.Forms;
 
 namespace Consultoria_RH
@@ -9,7 +10,7 @@ namespace Consultoria_RH
     {
     public Class1() { }
 
-    public void CreateDocument(string info1, string info2, string info3, string info4, string info5, string info6, string info7, string info8, string info9, string info10, string info11, string info12, string info13, string info14)
+    public void reporteInformacion(string info1, string info2, string info3, string info4, string info5, string info6, string info7, string info8, string info9, string info10, string info11, string info12, string info13, string info14)
     {
       // create filestream object
       SaveFileDialog guardarArchivo = new SaveFileDialog();
@@ -25,9 +26,10 @@ namespace Consultoria_RH
 
       using (var writer = PdfWriter.GetInstance(doc, fs))
       {
-        string imagePath = "C:\\Users\\jos10\\Documents\\GitHub\\consultoriaRH\\ATI.PNG";
+                string currentDir = Environment.CurrentDirectory;
+                string imagePath = currentDir + "\\..\\..\\img\\ATI.PNG";
 
-        iTextSharp.text.Image image = iTextSharp.text.Image.GetInstance(imagePath);
+                iTextSharp.text.Image image = iTextSharp.text.Image.GetInstance(imagePath);
 
         image.Alignment = Element.ALIGN_CENTER;
         image.ScaleToFit(300f, 450f);
@@ -74,5 +76,66 @@ namespace Consultoria_RH
         doc.Close();
       }
     }
-  }
+
+
+        public void reporteCapacitacion(string nombre, string info1, string info2, string info3, string info4, string info5, string info6, string info7, string info8, string info9, string info10)
+        {
+            // create filestream object
+            SaveFileDialog guardarArchivo = new SaveFileDialog();
+            guardarArchivo.Filter = "PDF|*.pdf";
+            guardarArchivo.Title = "Guardar Reporte";
+            guardarArchivo.FileName = "Plan Capacitación - " + nombre + "";
+            guardarArchivo.ShowDialog();
+
+
+            var fs = (System.IO.FileStream)guardarArchivo.OpenFile();
+
+            var doc = new Document();
+
+            using (var writer = PdfWriter.GetInstance(doc, fs))
+            {
+                string currentDir = Environment.CurrentDirectory;
+                string imagePath = currentDir+ "\\..\\..\\img\\ATI.PNG";
+
+                iTextSharp.text.Image image = iTextSharp.text.Image.GetInstance(imagePath);
+
+                image.Alignment = Element.ALIGN_CENTER;
+                image.ScaleToFit(300f, 450f);
+
+                doc.Open();
+                doc.Add(image);
+
+                PdfPTable tabla = new PdfPTable(2);
+                PdfPCell celdas = new PdfPCell();
+                celdas.Phrase = new Phrase("Información del Profesor", new Font(Font.FontFamily.TIMES_ROMAN, 12, 1, BaseColor.BLACK));
+                celdas.Colspan = 2;
+                celdas.HorizontalAlignment = Element.ALIGN_CENTER;
+                tabla.AddCell(celdas);
+                tabla.AddCell(new PdfPCell(new Phrase("Actividades", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_CENTER, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                tabla.AddCell(new PdfPCell(new Phrase(info1, new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_JUSTIFIED, Padding = 5 });
+                tabla.AddCell(new PdfPCell(new Phrase("Objetivos", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_CENTER, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                tabla.AddCell(new PdfPCell(new Phrase(info2, new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_JUSTIFIED, Padding = 5 });
+                tabla.AddCell(new PdfPCell(new Phrase("Periodo realización", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_CENTER, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                tabla.AddCell(new PdfPCell(new Phrase(info3, new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_JUSTIFIED, Padding = 5 });
+                tabla.AddCell(new PdfPCell(new Phrase("Lugar", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_CENTER, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                tabla.AddCell(new PdfPCell(new Phrase(info4, new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_JUSTIFIED, Padding = 5 });
+                tabla.AddCell(new PdfPCell(new Phrase("Tipo de actualización", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_CENTER, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                tabla.AddCell(new PdfPCell(new Phrase(info5, new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_JUSTIFIED, Padding = 5 });
+                tabla.AddCell(new PdfPCell(new Phrase("Tiempo capacitación", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_CENTER, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                tabla.AddCell(new PdfPCell(new Phrase(info6, new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_JUSTIFIED, Padding = 5 });
+                tabla.AddCell(new PdfPCell(new Phrase("Actividades complementarias", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_CENTER, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                tabla.AddCell(new PdfPCell(new Phrase(info7, new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_JUSTIFIED, Padding = 5 });
+                tabla.AddCell(new PdfPCell(new Phrase("Objetivos", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_CENTER, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                tabla.AddCell(new PdfPCell(new Phrase(info8, new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_JUSTIFIED, Padding = 5 });
+                tabla.AddCell(new PdfPCell(new Phrase("Periodo realización", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_CENTER, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                tabla.AddCell(new PdfPCell(new Phrase(info9, new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_JUSTIFIED, Padding = 5 });
+                tabla.AddCell(new PdfPCell(new Phrase("Área de trabajo", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_CENTER, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                tabla.AddCell(new PdfPCell(new Phrase(info10, new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_JUSTIFIED, Padding = 5 });
+                
+
+                doc.Add(tabla);
+                doc.Close();
+            }
+        }
+    }
 }

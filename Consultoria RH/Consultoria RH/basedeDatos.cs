@@ -10,7 +10,8 @@ namespace Consultoria_RH
 {
     class basedeDatos
     {
-        string path = "C:\\Users\\jos10\\Documents\\GitHub\\consultoriaRH\\BDRH.mdb";
+        static string currentDir = Environment.CurrentDirectory;
+        string path = currentDir+ "\\..\\..\\bd\\BDRH.mdb"; 
 
         string provider = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=";
         string connString;

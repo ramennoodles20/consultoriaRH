@@ -58,7 +58,7 @@ namespace Consultoria_RH
     private void button1_Click(object sender, EventArgs e)
     {
       Class1 asd = new Class1();
-      asd.CreateDocument(richTextBox1.Text, richTextBox2.Text, richTextBox3.Text, richTextBox4.Text, richTextBox5.Text, richTextBox6.Text, richTextBox7.Text, richTextBox8.Text, richTextBox9.Text, richTextBox10.Text, richTextBox11.Text, richTextBox12.Text, richTextBox13.Text, richTextBox14.Text);
+      asd.reporteInformacion(richTextBox1.Text, richTextBox2.Text, richTextBox3.Text, richTextBox4.Text, richTextBox5.Text, richTextBox6.Text, richTextBox7.Text, richTextBox8.Text, richTextBox9.Text, richTextBox10.Text, richTextBox11.Text, richTextBox12.Text, richTextBox13.Text, richTextBox14.Text);
       MessageBox.Show("Reporte generado con éxito", "Reporte", MessageBoxButtons.OK, MessageBoxIcon.Information);
     }
   }

@@ -69,5 +69,12 @@ namespace Consultoria_RH
             richTextBox9.Text = String.Join(", ",periodos_actividad);
             richTextBox10.Text = actividades;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Class1 asd = new Class1();
+            asd.reporteCapacitacion(label14.Text, richTextBox1.Text, richTextBox2.Text, richTextBox3.Text, richTextBox4.Text, richTextBox5.Text, richTextBox6.Text, richTextBox7.Text, richTextBox8.Text, richTextBox9.Text, richTextBox10.Text);
+            MessageBox.Show("Reporte generado con éxito", "Reporte", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
