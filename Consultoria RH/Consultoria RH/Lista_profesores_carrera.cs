@@ -26,26 +26,7 @@ namespace Consultoria_RH
         private void button2_Click(object sender, EventArgs e)
         {
             Plan_capacitacion plan = new Plan_capacitacion(listBox1.Text);
-            DataTable tbl;
-            List<string> no_tienen = new List<string>();
-
-            query.make_query("SELECT [Nombre completo] FROM respuestasRH " +
-                "WHERE([requiere actividades para capacitación complementaria] = 'No')");
-
-            tbl = query.table();
-
-            foreach (DataRow row in query.table().Rows)
-            {
-                no_tienen.Add(row["Nombre completo"].ToString());
-            }
-            if (no_tienen.Contains(listBox1.Text))
-            {
-                MessageBox.Show("Personal seleccionado no posee un plan de capacitación complementaria");
-            }
-            else
-            {
-                plan.Show();
-            }
+            plan.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
