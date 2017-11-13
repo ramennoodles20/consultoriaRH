@@ -29,7 +29,7 @@ namespace Consultoria_RH
         {
             //List<string> res = new List<string>();
             query.make_query("SELECT *" + 
-                "FROM(actividadesComplementarias INNER JOIN respuestasRH ON actividadesComplementarias.[ID de respuesta] = respuestasRH.[ID de respuesta])" +
+                "FROM(respuestasRH)" +
                 "WHERE(respuestasRH.[Nombre completo] LIKE '%" + nombre +"%')");
 
             DataTable tbl = query.table();

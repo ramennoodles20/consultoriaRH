@@ -99,3 +99,5 @@ C:\Users\Luis\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\bin\Debug\Cons
 C:\Users\Luis\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\bin\Debug\itextsharp.dll
 C:\Users\Luis\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\bin\Debug\itextsharp.xml
 C:\Users\Luis\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria RH.csprojResolveAssemblyReference.cache
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\bin\Debug\itextsharp.dll
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\bin\Debug\itextsharp.xml
