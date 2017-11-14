@@ -5,10 +5,10 @@ using System.Windows.Forms;
 
 namespace Consultoria_RH
 {
-  class Class1
+  class reportesPDF
 
     {
-    public Class1() { }
+    public reportesPDF() { }
 
     public void reporteInformacion(string info1, string info2, string info3, string info4, string info5, string info6, string info7, string info8, string info9, string info10, string info11, string info12, string info13, string info14)
     {

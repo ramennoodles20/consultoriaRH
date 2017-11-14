@@ -25,14 +25,13 @@ namespace Consultoria_RH
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Plan_capacitacion plan = new Plan_capacitacion(listBox1.Text);
+            reportesUsuarios plan = new Plan_capacitacion(listBox1.Text);
             plan.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //string nombre = listBox1.Text
-            Informacion_profesor info_profe = new Informacion_profesor(listBox1.Text);
+            reportesUsuarios info_profe = new Informacion_profesor(listBox1.Text);
             info_profe.Show();
         }
 

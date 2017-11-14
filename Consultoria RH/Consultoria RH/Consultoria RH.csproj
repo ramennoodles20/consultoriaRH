@@ -68,7 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="basedeDatos.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="reportesPDF.cs" />
     <Compile Include="Informacion_profesor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +101,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reportesUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <EmbeddedResource Include="Informacion_profesor.resx">
       <DependentUpon>Informacion_profesor.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,6 +127,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -576,7 +576,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 682);
+            this.ClientSize = new System.Drawing.Size(784, 687);
             this.Controls.Add(this.panel13);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.label15);
@@ -584,6 +584,7 @@
             this.Controls.Add(this.label13);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Margin = new System.Windows.Forms.Padding(1);
+            this.MinimumSize = new System.Drawing.Size(800, 726);
             this.Name = "Plan_capacitacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Plan de Capacitación";

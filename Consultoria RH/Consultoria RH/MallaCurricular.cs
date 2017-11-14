@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Consultoria_RH
@@ -42,11 +37,6 @@ namespace Consultoria_RH
         {
             Lista_profesores_carrera lista_profes = new Lista_profesores_carrera();
             lista_profes.Show();
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

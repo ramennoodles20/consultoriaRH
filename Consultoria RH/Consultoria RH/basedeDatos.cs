@@ -16,7 +16,6 @@ namespace Consultoria_RH
         string provider = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=";
         string connString;
         OleDbConnection myConnection;
-        DataTable userTables;
 
         DataTable tableResults = new DataTable();
 

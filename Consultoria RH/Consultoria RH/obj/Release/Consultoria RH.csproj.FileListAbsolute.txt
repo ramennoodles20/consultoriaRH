@@ -1,0 +1,16 @@
+C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.Informacion_profesor.resources
+C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.Lista_profesores_carrera.resources
+C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.Lista_profesores_curso.resources
+C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.MallaCurricular.resources
+C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.Plan_capacitacion.resources
+C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria RH.csproj.GenerateResource.Cache
+C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\bin\Release\Consultoria RH.exe.config
+C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\bin\Release\Consultoria RH.exe
+C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\bin\Release\Consultoria RH.pdb
+C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\bin\Release\itextsharp.dll
+C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\bin\Release\itextsharp.xml
+C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.Properties.Resources.resources
+C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria RH.csproj.CoreCompileInputs.cache
+C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria RH.exe
+C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria RH.pdb
+C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria RH.csprojResolveAssemblyReference.cache

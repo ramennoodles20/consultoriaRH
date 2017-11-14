@@ -1,16 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Consultoria_RH
 {
-    public partial class Plan_capacitacion : Form
+    public partial class Plan_capacitacion : reportesUsuarios
     {
         basedeDatos query = new basedeDatos();
         string nombre;
@@ -81,12 +76,12 @@ namespace Consultoria_RH
 
                 foreach (DataRow row in query.table().Rows)
                 {
-                    actividades = row["actividades que requiere en capacitacion formal"].ToString();
-                    objetivos = row["objetivo de las actividades"].ToString();
-                    periodo = row["periodo para cursar actividades"].ToString();
-                    lugar = row["lugar de actualizacion"].ToString();
-                    actualizacion = row["actualizacion que realizaria"].ToString();
-                    tiempo = row["tiempo estimado capacitacion"].ToString();
+                    actividades = agregarEspacios(row["actividades que requiere en capacitacion formal"].ToString());
+                    objetivos = agregarEspacios(row["objetivo de las actividades"].ToString());
+                    periodo = agregarEspacios(row["periodo para cursar actividades"].ToString());
+                    lugar = agregarEspacios(row["lugar de actualizacion"].ToString());
+                    actualizacion = agregarEspacios(row["actualizacion que realizaria"].ToString());
+                    tiempo = agregarEspacios(row["tiempo estimado capacitacion"].ToString());
                 }
                 llenar_txt(actividades, objetivos, periodo, lugar, actualizacion, tiempo,
                     mensaje, mensaje, mensaje, mensaje);
@@ -112,14 +107,14 @@ namespace Consultoria_RH
                     periodos_actividad.Add(row["periodo para actividades complementarias"].ToString());
                 }
                 llenar_txt(actividades, objetivos, periodo, lugar, actualizacion, tiempo,
-                    String.Join(", ", capacitacion), String.Join(", ", objetivos_estrategicos),
-                    String.Join(", ", periodos_actividad), actividades);
+                    String.Join("\n", capacitacion), String.Join("\n", objetivos_estrategicos),
+                    String.Join("\n", periodos_actividad), actividades);
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Class1 asd = new Class1();
+            reportesPDF asd = new reportesPDF();
             asd.reporteCapacitacion(label14.Text, richTextBox1.Text, richTextBox2.Text, richTextBox3.Text, richTextBox4.Text, richTextBox5.Text, richTextBox6.Text, richTextBox7.Text, richTextBox8.Text, richTextBox9.Text, richTextBox10.Text);
             MessageBox.Show("Reporte generado con éxito", "Reporte", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
