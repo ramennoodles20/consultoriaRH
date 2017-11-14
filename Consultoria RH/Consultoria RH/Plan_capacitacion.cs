@@ -106,9 +106,18 @@ namespace Consultoria_RH
                     objetivos_estrategicos.Add(row["objetivo estratégico"].ToString());
                     periodos_actividad.Add(row["periodo para actividades complementarias"].ToString());
                 }
-                llenar_txt(actividades, objetivos, periodo, lugar, actualizacion, tiempo,
+                if(nombre.Equals("Jenny Cortés Ugalde"))
+                {
+                    llenar_txt(actividades, objetivos, periodo, lugar, actualizacion, tiempo,
+                    String.Join("\n", capacitacion), String.Join("\n", objetivos_estrategicos),
+                    "Favor ver base de datos", actividades);
+                }
+                else
+                {
+                    llenar_txt(actividades, objetivos, periodo, lugar, actualizacion, tiempo,
                     String.Join("\n", capacitacion), String.Join("\n", objetivos_estrategicos),
                     String.Join("\n", periodos_actividad), actividades);
+                }
             }
         }
 
