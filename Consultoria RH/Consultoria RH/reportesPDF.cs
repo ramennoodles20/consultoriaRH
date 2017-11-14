@@ -75,6 +75,10 @@ namespace Consultoria_RH
                 }
                 MessageBox.Show("Reporte generado con éxito", "Reporte", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+            else
+            {
+                MessageBox.Show("Se ha cancelado el reporte", "Reporte", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
     }
 
 
@@ -134,6 +138,10 @@ namespace Consultoria_RH
                     doc.Close();
                 }
                 MessageBox.Show("Reporte generado con éxito", "Reporte", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Se ha cancelado el reporte", "Reporte", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
     }
