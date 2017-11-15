@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lista_profesores_curso));
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button3 = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
@@ -43,7 +44,7 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(6, 70);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(1);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(448, 180);
             this.listBox1.TabIndex = 0;
@@ -52,7 +53,7 @@
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.button3.Location = new System.Drawing.Point(169, 7);
-            this.button3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.button3.Margin = new System.Windows.Forms.Padding(1);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(122, 58);
             this.button3.TabIndex = 9;
@@ -99,7 +100,7 @@
             this.panel1.Controls.Add(this.button3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 268);
-            this.panel1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel1.Margin = new System.Windows.Forms.Padding(1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(459, 75);
             this.panel1.TabIndex = 15;
@@ -114,7 +115,8 @@
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.listBox1);
-            this.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(1);
             this.Name = "Lista_profesores_curso";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista de Profesores del Curso";

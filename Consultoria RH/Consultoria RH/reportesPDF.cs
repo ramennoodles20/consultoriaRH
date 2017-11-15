@@ -24,10 +24,8 @@ namespace Consultoria_RH
 
                 using (var writer = PdfWriter.GetInstance(doc, fs))
                 {
-                    string currentDir = Environment.CurrentDirectory;
-                    string imagePath = currentDir + "\\..\\..\\img\\ATI.PNG";
-
-                    iTextSharp.text.Image image = iTextSharp.text.Image.GetInstance(imagePath);
+                    Image image = Image.GetInstance(Properties.Resources.ATI,
+                                                    System.Drawing.Imaging.ImageFormat.Png);
 
                     image.Alignment = Element.ALIGN_CENTER;
                     image.ScaleToFit(300f, 450f);
