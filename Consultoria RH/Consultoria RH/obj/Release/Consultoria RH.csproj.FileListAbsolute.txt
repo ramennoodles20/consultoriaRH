@@ -30,3 +30,4 @@ C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Releas
 C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria RH.exe
 C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria RH.pdb
 C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.reportesUsuarios.resources
+C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.reportesUsuarios.resources
