@@ -132,3 +132,4 @@ C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\D
 C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Plan_capacitacion.resources
 C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Properties.Resources.resources
 C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria RH.csproj.GenerateResource.Cache
+C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.reportesUsuarios.resources

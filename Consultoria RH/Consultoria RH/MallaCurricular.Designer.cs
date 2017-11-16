@@ -279,7 +279,7 @@
             // 
             // button61
             // 
-            this.button61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(59)))), ((int)(((byte)(93)))));
+            this.button61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(135)))), ((int)(((byte)(166)))));
             this.button61.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button61.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button61.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -295,7 +295,7 @@
             // 
             // button60
             // 
-            this.button60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(59)))), ((int)(((byte)(93)))));
+            this.button60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(135)))), ((int)(((byte)(166)))));
             this.button60.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button60.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button60.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -966,7 +966,7 @@
             // 
             // button18
             // 
-            this.button18.BackColor = System.Drawing.Color.SteelBlue;
+            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(108)))), ((int)(((byte)(132)))));
             this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button18.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1111,7 +1111,7 @@
             // button9
             // 
             this.button9.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.button9.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(56)))), ((int)(((byte)(143)))));
             this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button9.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1159,7 +1159,7 @@
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(56)))), ((int)(((byte)(143)))));
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button6.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1175,7 +1175,7 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(56)))), ((int)(((byte)(143)))));
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button5.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1191,7 +1191,7 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(56)))), ((int)(((byte)(143)))));
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button4.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1207,7 +1207,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(56)))), ((int)(((byte)(143)))));
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button3.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1388,7 +1388,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(56)))), ((int)(((byte)(143)))));
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button2.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
