@@ -102,6 +102,7 @@ namespace Consultoria_RH
                     image.ScaleToFit(300f, 450f);
 
                     doc.Open();
+                    doc.SetMargins(0f, 0f, 10f, 0f);
                     doc.Add(image);
 
                     PdfPTable tabla = new PdfPTable(2);
@@ -124,38 +125,48 @@ namespace Consultoria_RH
                     tabla.AddCell(new PdfPCell(new Phrase(info5, new Font(Font.FontFamily.TIMES_ROMAN, 11, 0, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_JUSTIFIED, Padding = 5 });
                     tabla.AddCell(new PdfPCell(new Phrase("Tiempo capacitación", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
                     tabla.AddCell(new PdfPCell(new Phrase(info6, new Font(Font.FontFamily.TIMES_ROMAN, 11, 0, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_JUSTIFIED, Padding = 5 });
-
-                    doc.Add(tabla);
-
-                    PdfPTable tablaAct = new PdfPTable(4);
-                    float[] widthsAct = new float[] { 1f, 2f, 1f, 1f };
-                    tablaAct.SetWidths(widthsAct);
-                    PdfPCell celdasAct = new PdfPCell();
-                    celdasAct.Phrase = new Phrase("Plan Capacitación-Adicional", new Font(Font.FontFamily.TIMES_ROMAN, 12, 1, BaseColor.BLACK));
-                    celdasAct.Colspan = 4;
-                    celdasAct.HorizontalAlignment = Element.ALIGN_CENTER;
-                    tablaAct.AddCell(celdasAct);
-                    tablaAct.AddCell(new PdfPCell(new Phrase("Actividades complementarias", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
-                    tablaAct.AddCell(new PdfPCell(new Phrase("Objetivos", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
-                    tablaAct.AddCell(new PdfPCell(new Phrase("Periodo realización", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
-                    tablaAct.AddCell(new PdfPCell(new Phrase("Área de trabajo", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
-
-                    String[] actividades = info7.Split('\n');
-                    String[] objetivos = info8.Split('\n');
-                    String[] periodo = info9.Split('\n');
-
-                    int contador = 0;
-                    foreach (string act in actividades) {
-                        tablaAct.AddCell(new PdfPCell(new Phrase(actividades[contador], new Font(Font.FontFamily.TIMES_ROMAN, 11, 0, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5 });
-                        tablaAct.AddCell(new PdfPCell(new Phrase(objetivos[contador], new Font(Font.FontFamily.TIMES_ROMAN, 11, 0, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5 });
-                        tablaAct.AddCell(new PdfPCell(new Phrase(periodo[contador], new Font(Font.FontFamily.TIMES_ROMAN, 11, 0, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5 });
-                        tablaAct.AddCell(new PdfPCell(new Phrase(info10, new Font(Font.FontFamily.TIMES_ROMAN, 11, 0, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5 });
-                        contador += 1;
+                    if (nombre.Equals("Jenny Cortés Ugalde")) {
+                        tabla.AddCell(new PdfPCell(new Phrase("Actividades complementarias", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                        tabla.AddCell(new PdfPCell(new Phrase(info7, new Font(Font.FontFamily.TIMES_ROMAN, 11, 0, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5 });
+                        tabla.AddCell(new PdfPCell(new Phrase("Objetivos", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                        tabla.AddCell(new PdfPCell(new Phrase(info8, new Font(Font.FontFamily.TIMES_ROMAN, 11, 0, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5 });
+                        tabla.AddCell(new PdfPCell(new Phrase("Periodo realización", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                        tabla.AddCell(new PdfPCell(new Phrase(info9, new Font(Font.FontFamily.TIMES_ROMAN, 11, 0, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5 });
+                        tabla.AddCell(new PdfPCell(new Phrase("Área de trabajo", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                        tabla.AddCell(new PdfPCell(new Phrase(info10, new Font(Font.FontFamily.TIMES_ROMAN, 11, 0, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5 });
                     }
-                    doc.SetMargins(0f, 0f, 10f, 0f);
-                    doc.NewPage();
-                    doc.Add(image);
-                    doc.Add(tablaAct);
+                    doc.Add(tabla);
+                    if (!nombre.Equals("Jenny Cortés Ugalde"))
+                    {
+                        PdfPTable tablaAct = new PdfPTable(4);
+                        float[] widthsAct = new float[] { 1f, 2f, 1f, 1f };
+                        tablaAct.SetWidths(widthsAct);
+                        PdfPCell celdasAct = new PdfPCell();
+                        celdasAct.Phrase = new Phrase("Plan Capacitación-Adicional", new Font(Font.FontFamily.TIMES_ROMAN, 12, 1, BaseColor.BLACK));
+                        celdasAct.Colspan = 4;
+                        celdasAct.HorizontalAlignment = Element.ALIGN_CENTER;
+                        tablaAct.AddCell(celdasAct);
+                        tablaAct.AddCell(new PdfPCell(new Phrase("Actividades complementarias", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                        tablaAct.AddCell(new PdfPCell(new Phrase("Objetivos", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                        tablaAct.AddCell(new PdfPCell(new Phrase("Periodo realización", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+                        tablaAct.AddCell(new PdfPCell(new Phrase("Área de trabajo", new Font(Font.FontFamily.TIMES_ROMAN, 11, 1, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5, BackgroundColor = new BaseColor(System.Drawing.Color.Silver) });
+
+                        String[] actividades = info7.Split('\n');
+                        String[] objetivos = info8.Split('\n');
+                        String[] periodo = info9.Split('\n');
+
+                        int contador = 0;
+                        foreach (string act in actividades)
+                        {
+                            tablaAct.AddCell(new PdfPCell(new Phrase(actividades[contador], new Font(Font.FontFamily.TIMES_ROMAN, 11, 0, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5 });
+                            tablaAct.AddCell(new PdfPCell(new Phrase(objetivos[contador], new Font(Font.FontFamily.TIMES_ROMAN, 11, 0, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5 });
+                            tablaAct.AddCell(new PdfPCell(new Phrase(periodo[contador], new Font(Font.FontFamily.TIMES_ROMAN, 11, 0, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5 });
+                            tablaAct.AddCell(new PdfPCell(new Phrase(info10, new Font(Font.FontFamily.TIMES_ROMAN, 11, 0, BaseColor.BLACK))) { HorizontalAlignment = Element.ALIGN_LEFT, Padding = 5 });
+                            contador += 1;
+                        }
+                        doc.Add(tablaAct);
+                    }
+                    
                     doc.Close();
                 }
                 MessageBox.Show("Reporte generado con éxito", "Reporte", MessageBoxButtons.OK, MessageBoxIcon.Information);
