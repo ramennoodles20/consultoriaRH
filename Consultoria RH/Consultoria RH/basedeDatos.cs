@@ -52,7 +52,7 @@ namespace Consultoria_RH
 
         private void buscarBD()
         {
-            MessageBox.Show("Por favor seleccione la base de Datos correspondiente",
+            MessageBox.Show("Por favor seleccione la base de datos correspondiente",
                 "No se ha detectado la Base de Datos", MessageBoxButtons.OK, MessageBoxIcon.Error);
             OpenFileDialog dialog = new OpenFileDialog();
             if (dialog.ShowDialog() == DialogResult.OK)

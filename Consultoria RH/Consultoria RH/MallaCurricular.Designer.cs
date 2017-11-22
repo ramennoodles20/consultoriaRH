@@ -433,6 +433,7 @@
             this.button52.Name = "button52";
             this.button52.Size = new System.Drawing.Size(111, 73);
             this.button52.TabIndex = 81;
+            this.button52.Tag = "TI3600";
             this.button52.Text = "Bases de datos";
             this.button52.UseVisualStyleBackColor = false;
             // 
@@ -1432,7 +1433,8 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MallaCurricular";
-            this.Text = "MallaCurricular";
+            this.Text = "Licenciatura en Administración de Tecnología de Información Malla Curricular Plan" +
+    " 2050";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MallaCurricular_Load);
             this.tableLayoutPanel1.ResumeLayout(false);

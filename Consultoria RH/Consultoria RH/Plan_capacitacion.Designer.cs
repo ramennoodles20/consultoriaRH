@@ -28,6 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Plan_capacitacion));
             this.button3 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -43,12 +49,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -61,12 +61,13 @@
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.richTextBox6 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox9 = new System.Windows.Forms.RichTextBox();
             this.richTextBox10 = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.actividades_complementarias = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.objetivos = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.periodos = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -74,12 +75,10 @@
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // button3
@@ -104,14 +103,11 @@
             this.tableLayoutPanel1.Controls.Add(this.panel4, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.panel5, 0, 4);
             this.tableLayoutPanel1.Controls.Add(this.panel6, 0, 5);
-            this.tableLayoutPanel1.Controls.Add(this.panel7, 0, 6);
-            this.tableLayoutPanel1.Controls.Add(this.panel8, 0, 7);
-            this.tableLayoutPanel1.Controls.Add(this.panel9, 0, 8);
-            this.tableLayoutPanel1.Controls.Add(this.panel10, 0, 9);
+            this.tableLayoutPanel1.Controls.Add(this.panel10, 0, 6);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(15, 92);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(1);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 10;
+            this.tableLayoutPanel1.RowCount = 7;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090732F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090733F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090733F));
@@ -122,7 +118,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.63707F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090733F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090733F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(317, 483);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(317, 337);
             this.tableLayoutPanel1.TabIndex = 7;
             // 
             // panel1
@@ -134,7 +130,7 @@
             this.panel1.Location = new System.Drawing.Point(1, 1);
             this.panel1.Margin = new System.Windows.Forms.Padding(1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(315, 41);
+            this.panel1.Size = new System.Drawing.Size(315, 42);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -154,10 +150,10 @@
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(1, 44);
+            this.panel2.Location = new System.Drawing.Point(1, 45);
             this.panel2.Margin = new System.Windows.Forms.Padding(1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(315, 41);
+            this.panel2.Size = new System.Drawing.Size(315, 42);
             this.panel2.TabIndex = 1;
             // 
             // label2
@@ -177,10 +173,10 @@
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label3);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(1, 87);
+            this.panel3.Location = new System.Drawing.Point(1, 89);
             this.panel3.Margin = new System.Windows.Forms.Padding(1);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(315, 41);
+            this.panel3.Size = new System.Drawing.Size(315, 42);
             this.panel3.TabIndex = 2;
             // 
             // label3
@@ -200,10 +196,10 @@
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.label4);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(1, 130);
+            this.panel4.Location = new System.Drawing.Point(1, 133);
             this.panel4.Margin = new System.Windows.Forms.Padding(1);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(315, 41);
+            this.panel4.Size = new System.Drawing.Size(315, 42);
             this.panel4.TabIndex = 3;
             // 
             // label4
@@ -223,10 +219,10 @@
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.label5);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(1, 173);
+            this.panel5.Location = new System.Drawing.Point(1, 177);
             this.panel5.Margin = new System.Windows.Forms.Padding(1);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(315, 41);
+            this.panel5.Size = new System.Drawing.Size(315, 42);
             this.panel5.TabIndex = 4;
             // 
             // label5
@@ -246,10 +242,10 @@
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.label6);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(1, 216);
+            this.panel6.Location = new System.Drawing.Point(1, 221);
             this.panel6.Margin = new System.Windows.Forms.Padding(1);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(315, 41);
+            this.panel6.Size = new System.Drawing.Size(315, 42);
             this.panel6.TabIndex = 5;
             // 
             // label6
@@ -263,85 +259,16 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Años estimados que durará la capacitación";
             // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.SystemColors.Window;
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.label12);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(1, 259);
-            this.panel7.Margin = new System.Windows.Forms.Padding(1);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(315, 63);
-            this.panel7.TabIndex = 6;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label12.Location = new System.Drawing.Point(2, 23);
-            this.label12.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(300, 20);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "Actividades capacitación complementaria";
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.SystemColors.Window;
-            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel8.Controls.Add(this.label8);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel8.Location = new System.Drawing.Point(1, 324);
-            this.panel8.Margin = new System.Windows.Forms.Padding(1);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(315, 63);
-            this.panel8.TabIndex = 7;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label8.Location = new System.Drawing.Point(1, 24);
-            this.label8.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(263, 20);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Objetivos Estratégicos de lo anterior";
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.SystemColors.Window;
-            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel9.Controls.Add(this.label9);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel9.Location = new System.Drawing.Point(1, 389);
-            this.panel9.Margin = new System.Windows.Forms.Padding(1);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(315, 41);
-            this.panel9.TabIndex = 8;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label9.Location = new System.Drawing.Point(1, 6);
-            this.label9.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(315, 20);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "Periodos para actividades complementarias";
-            // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.SystemColors.Window;
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel10.Controls.Add(this.label7);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel10.Location = new System.Drawing.Point(1, 432);
+            this.panel10.Location = new System.Drawing.Point(1, 265);
             this.panel10.Margin = new System.Windows.Forms.Padding(1);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(315, 50);
+            this.panel10.Size = new System.Drawing.Size(315, 71);
             this.panel10.TabIndex = 9;
             // 
             // label7
@@ -399,14 +326,11 @@
             this.tableLayoutPanel2.Controls.Add(this.richTextBox4, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.richTextBox5, 0, 4);
             this.tableLayoutPanel2.Controls.Add(this.richTextBox6, 0, 5);
-            this.tableLayoutPanel2.Controls.Add(this.richTextBox7, 0, 6);
-            this.tableLayoutPanel2.Controls.Add(this.richTextBox8, 0, 7);
-            this.tableLayoutPanel2.Controls.Add(this.richTextBox9, 0, 8);
-            this.tableLayoutPanel2.Controls.Add(this.richTextBox10, 0, 9);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox10, 0, 6);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(335, 92);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(1);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 10;
+            this.tableLayoutPanel2.RowCount = 7;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090732F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090733F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090733F));
@@ -417,7 +341,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.63707F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090733F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090733F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(428, 483);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(428, 337);
             this.tableLayoutPanel2.TabIndex = 12;
             // 
             // richTextBox1
@@ -429,7 +353,7 @@
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(426, 41);
+            this.richTextBox1.Size = new System.Drawing.Size(426, 42);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
@@ -438,11 +362,11 @@
             this.richTextBox2.BackColor = System.Drawing.Color.White;
             this.richTextBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.richTextBox2.Location = new System.Drawing.Point(1, 44);
+            this.richTextBox2.Location = new System.Drawing.Point(1, 45);
             this.richTextBox2.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.Size = new System.Drawing.Size(426, 41);
+            this.richTextBox2.Size = new System.Drawing.Size(426, 42);
             this.richTextBox2.TabIndex = 1;
             this.richTextBox2.Text = "";
             // 
@@ -451,11 +375,11 @@
             this.richTextBox3.BackColor = System.Drawing.Color.White;
             this.richTextBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.richTextBox3.Location = new System.Drawing.Point(1, 87);
+            this.richTextBox3.Location = new System.Drawing.Point(1, 89);
             this.richTextBox3.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.ReadOnly = true;
-            this.richTextBox3.Size = new System.Drawing.Size(426, 41);
+            this.richTextBox3.Size = new System.Drawing.Size(426, 42);
             this.richTextBox3.TabIndex = 2;
             this.richTextBox3.Text = "";
             // 
@@ -464,11 +388,11 @@
             this.richTextBox4.BackColor = System.Drawing.Color.White;
             this.richTextBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.richTextBox4.Location = new System.Drawing.Point(1, 130);
+            this.richTextBox4.Location = new System.Drawing.Point(1, 133);
             this.richTextBox4.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.ReadOnly = true;
-            this.richTextBox4.Size = new System.Drawing.Size(426, 41);
+            this.richTextBox4.Size = new System.Drawing.Size(426, 42);
             this.richTextBox4.TabIndex = 3;
             this.richTextBox4.Text = "";
             // 
@@ -477,11 +401,11 @@
             this.richTextBox5.BackColor = System.Drawing.Color.White;
             this.richTextBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.richTextBox5.Location = new System.Drawing.Point(1, 173);
+            this.richTextBox5.Location = new System.Drawing.Point(1, 177);
             this.richTextBox5.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox5.Name = "richTextBox5";
             this.richTextBox5.ReadOnly = true;
-            this.richTextBox5.Size = new System.Drawing.Size(426, 41);
+            this.richTextBox5.Size = new System.Drawing.Size(426, 42);
             this.richTextBox5.TabIndex = 4;
             this.richTextBox5.Text = "";
             // 
@@ -490,63 +414,24 @@
             this.richTextBox6.BackColor = System.Drawing.Color.White;
             this.richTextBox6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.richTextBox6.Location = new System.Drawing.Point(1, 216);
+            this.richTextBox6.Location = new System.Drawing.Point(1, 221);
             this.richTextBox6.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox6.Name = "richTextBox6";
             this.richTextBox6.ReadOnly = true;
-            this.richTextBox6.Size = new System.Drawing.Size(426, 41);
+            this.richTextBox6.Size = new System.Drawing.Size(426, 42);
             this.richTextBox6.TabIndex = 5;
             this.richTextBox6.Text = "";
-            // 
-            // richTextBox7
-            // 
-            this.richTextBox7.BackColor = System.Drawing.Color.White;
-            this.richTextBox7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.richTextBox7.Location = new System.Drawing.Point(1, 259);
-            this.richTextBox7.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox7.Name = "richTextBox7";
-            this.richTextBox7.ReadOnly = true;
-            this.richTextBox7.Size = new System.Drawing.Size(426, 63);
-            this.richTextBox7.TabIndex = 6;
-            this.richTextBox7.Text = "";
-            // 
-            // richTextBox8
-            // 
-            this.richTextBox8.BackColor = System.Drawing.Color.White;
-            this.richTextBox8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.richTextBox8.Location = new System.Drawing.Point(1, 324);
-            this.richTextBox8.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox8.Name = "richTextBox8";
-            this.richTextBox8.ReadOnly = true;
-            this.richTextBox8.Size = new System.Drawing.Size(426, 63);
-            this.richTextBox8.TabIndex = 7;
-            this.richTextBox8.Text = "";
-            // 
-            // richTextBox9
-            // 
-            this.richTextBox9.BackColor = System.Drawing.Color.White;
-            this.richTextBox9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.richTextBox9.Location = new System.Drawing.Point(1, 389);
-            this.richTextBox9.Margin = new System.Windows.Forms.Padding(1);
-            this.richTextBox9.Name = "richTextBox9";
-            this.richTextBox9.ReadOnly = true;
-            this.richTextBox9.Size = new System.Drawing.Size(426, 41);
-            this.richTextBox9.TabIndex = 8;
-            this.richTextBox9.Text = "";
             // 
             // richTextBox10
             // 
             this.richTextBox10.BackColor = System.Drawing.Color.White;
             this.richTextBox10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.richTextBox10.Location = new System.Drawing.Point(1, 432);
+            this.richTextBox10.Location = new System.Drawing.Point(1, 265);
             this.richTextBox10.Margin = new System.Windows.Forms.Padding(1);
             this.richTextBox10.Name = "richTextBox10";
             this.richTextBox10.ReadOnly = true;
-            this.richTextBox10.Size = new System.Drawing.Size(426, 50);
+            this.richTextBox10.Size = new System.Drawing.Size(426, 71);
             this.richTextBox10.TabIndex = 9;
             this.richTextBox10.Text = "";
             // 
@@ -573,11 +458,77 @@
             this.panel13.Size = new System.Drawing.Size(784, 99);
             this.panel13.TabIndex = 13;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToResizeColumns = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.NullValue = null;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.actividades_complementarias,
+            this.objetivos,
+            this.periodos});
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle5;
+            this.dataGridView1.Location = new System.Drawing.Point(16, 432);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersVisible = false;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            this.dataGridView1.Size = new System.Drawing.Size(747, 150);
+            this.dataGridView1.TabIndex = 14;
+            // 
+            // actividades_complementarias
+            // 
+            this.actividades_complementarias.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.actividades_complementarias.DefaultCellStyle = dataGridViewCellStyle2;
+            this.actividades_complementarias.HeaderText = "Actividades de Capacitación Complementaria";
+            this.actividades_complementarias.Name = "actividades_complementarias";
+            this.actividades_complementarias.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.actividades_complementarias.Width = 286;
+            // 
+            // objetivos
+            // 
+            this.objetivos.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.objetivos.DefaultCellStyle = dataGridViewCellStyle3;
+            this.objetivos.HeaderText = "Objetivos Estratégicos";
+            this.objetivos.Name = "objetivos";
+            this.objetivos.Width = 159;
+            // 
+            // periodos
+            // 
+            this.periodos.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.periodos.DefaultCellStyle = dataGridViewCellStyle4;
+            this.periodos.HeaderText = "Periodos Estratégicos";
+            this.periodos.Name = "periodos";
+            this.periodos.Width = 156;
+            // 
             // Plan_capacitacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 687);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel13);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.label15);
@@ -604,16 +555,11 @@
             this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -635,13 +581,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
@@ -652,12 +592,13 @@
         private System.Windows.Forms.RichTextBox richTextBox4;
         private System.Windows.Forms.RichTextBox richTextBox5;
         private System.Windows.Forms.RichTextBox richTextBox6;
-        private System.Windows.Forms.RichTextBox richTextBox7;
-        private System.Windows.Forms.RichTextBox richTextBox8;
-        private System.Windows.Forms.RichTextBox richTextBox9;
-        private System.Windows.Forms.RichTextBox richTextBox10;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.RichTextBox richTextBox10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn actividades_complementarias;
+        private System.Windows.Forms.DataGridViewTextBoxColumn objetivos;
+        private System.Windows.Forms.DataGridViewTextBoxColumn periodos;
     }
 }

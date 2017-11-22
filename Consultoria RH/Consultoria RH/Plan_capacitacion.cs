@@ -9,6 +9,9 @@ namespace Consultoria_RH
     {
         basedeDatos query = new basedeDatos();
         string nombre;
+        string actividadesComplementarias;
+        string objetivosEstrategicos;
+        string periodosCapacitacion;
         public Plan_capacitacion(string nom)
         {
             nombre = nom;
@@ -124,7 +127,7 @@ namespace Consultoria_RH
         private void button1_Click(object sender, EventArgs e)
         {
             reportesPDF asd = new reportesPDF();
-            asd.reporteCapacitacion(label14.Text, richTextBox1.Text, richTextBox2.Text, richTextBox3.Text, richTextBox4.Text, richTextBox5.Text, richTextBox6.Text, richTextBox7.Text, richTextBox8.Text, richTextBox9.Text, richTextBox10.Text);
+            asd.reporteCapacitacion(label14.Text, richTextBox1.Text, richTextBox2.Text, richTextBox3.Text, richTextBox4.Text, richTextBox5.Text, richTextBox6.Text,actividadesComplementarias,objetivosEstrategicos,periodosCapacitacion, richTextBox10.Text);
         }
 
         public void llenar_txt(string m1, string m2, string m3, string m4, string m5, string m6,
@@ -136,9 +139,21 @@ namespace Consultoria_RH
             richTextBox4.Text = m4;
             richTextBox5.Text = m5;
             richTextBox6.Text = m6;
-            richTextBox7.Text = m7;
-            richTextBox8.Text = m8;
-            richTextBox9.Text = m9;
+
+            String[]listaActividades = m7.Split('\n');
+            String[] listaObjetivos = m8.Split('\n');
+            String[] listaPeriodos = m9.Split('\n');
+
+            for (int i= 0; i < listaActividades.Length; i++)
+            {
+                dataGridView1.Rows.Add(new object[]{ listaActividades[i], listaObjetivos[i], listaPeriodos[i]});
+
+            }
+
+            actividadesComplementarias = m7;
+            objetivosEstrategicos = m8;
+            periodosCapacitacion = m9;
+
             richTextBox10.Text = m10;
         }
     }
