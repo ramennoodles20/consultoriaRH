@@ -31,3 +31,20 @@ C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Releas
 C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria RH.pdb
 C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.reportesUsuarios.resources
 C:\Users\Fabricio\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.reportesUsuarios.resources
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\bin\Release\Consultoria RH.exe.config
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\bin\Release\Consultoria RH.exe
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\bin\Release\Consultoria RH.pdb
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\bin\Release\itextsharp.dll
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\bin\Release\itextsharp.xml
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria RH.csprojResolveAssemblyReference.cache
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.Informacion_profesor.resources
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.Lista_profesores_carrera.resources
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.Lista_profesores_curso.resources
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.MallaCurricular.resources
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.Plan_capacitacion.resources
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.Properties.Resources.resources
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria_RH.reportesUsuarios.resources
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria RH.csproj.GenerateResource.Cache
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria RH.csproj.CoreCompileInputs.cache
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria RH.exe
+C:\Users\jos10\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Release\Consultoria RH.pdb

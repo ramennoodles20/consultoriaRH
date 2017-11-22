@@ -124,7 +124,6 @@ C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\bin\D
 C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\bin\Debug\Consultoria RH.pdb
 C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\bin\Debug\itextsharp.dll
 C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\bin\Debug\itextsharp.xml
-C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria RH.csprojResolveAssemblyReference.cache
 C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Informacion_profesor.resources
 C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Lista_profesores_carrera.resources
 C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Lista_profesores_curso.resources
@@ -133,4 +132,7 @@ C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\D
 C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.Properties.Resources.resources
 C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria RH.csproj.GenerateResource.Cache
 C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.reportesUsuarios.resources
+
 C:\Users\Juan Diego Vega\Desktop\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria_RH.reportesUsuarios.resources
+C:\Users\Luis\Documents\GitHub\consultoriaRH\Consultoria RH\Consultoria RH\obj\Debug\Consultoria RH.csprojResolveAssemblyReference.cache
+
