@@ -25,8 +25,6 @@ namespace Consultoria_RH
 
         protected override void OnResize(System.EventArgs e)
         {
-            System.Console.WriteLine("new width " +  Width);
-            System.Console.WriteLine("current width " + CW);
             int RW = (Width - CW);
             int RH = (Height - CH);
 
